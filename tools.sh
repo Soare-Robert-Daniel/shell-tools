@@ -30,7 +30,6 @@ then
 	# Install a file manager
 	echo "Install Broot"
 	wget https://dystroy.org/broot/download/x86_64-linux/broot
-	mv broot /usr/local/bin
 	sudo mv broot /usr/local/bin
 	sudo chmod +x /usr/local/bin/broot	
 fi
